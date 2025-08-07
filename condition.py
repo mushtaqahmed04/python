@@ -19,6 +19,12 @@
 # print ("print", var1 or var2)
 
 
-a = "first"
-b = "second"
-print(a+b) 
+# a = "first"
+# b = "second"
+# print(a[-2:-1])
+# print(b[:-5])
+# print(a.count("fi"))
+
+name = input("Enter a name : ")
+lenght =len(name)
+print(lenght)
