@@ -25,6 +25,30 @@
 # print(b[:-5])
 # print(a.count("fi"))
 
-name = input("Enter a name : ")
-lenght =len(name)
-print(lenght)
+# name = input("Enter a name : ")
+# lenght =len(name)
+# print(lenght)
+
+# age = int (input("Enter a number : "))
+# if (age%2==0):
+#     print("even")
+# elif (age%2==1):
+#     print("odd")
+
+# age = int (input("Enter a number : "))
+# if (age%7==0):
+#     print("7")
+# else :
+#     print("not")
+
+
+a = int(input("Enter a number : "))
+b = int(input("Enter a number : "))
+c = int(input("Enter a number : "))
+
+if (a > b and a > c):
+    print ("a is greater")
+elif (b > a and b > c):
+    print("b is greater")
+elif (c > b and c > a):
+    print("c is greater")
