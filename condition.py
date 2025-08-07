@@ -6,14 +6,19 @@
 
 # print (age)
 
-a = 30
-b = 50
+# a = 30
+# b = 50
 
-print (not True)
-print (not( a > b ))
+# print (not True)
+# print (not( a > b ))
 
-var1 = True
-var2 = False
+# var1 = True
+# var2 = False
 
-print (not True)
-print ("print", var1 or var2)
+# print (not True)
+# print ("print", var1 or var2)
+
+
+a = "first"
+b = "second"
+print(a+b) 
